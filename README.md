@@ -40,10 +40,19 @@ client/     React + Vite UI
 tests/      Smoke tests
 ```
 
+## Docker
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Then open `http://localhost:3001` (UI + API). Details and cloud deploy notes: [DEPLOY.md](./DEPLOY.md).
+
 ## Next cuts (team)
 
 - **Percy:** real auth services, ownership checks, feed UI, fuller tests
-- **Cumulus:** Docker + cloud deploy
+- **Cumulus:** Docker + cloud deploy (see DEPLOY.md / this PR)
 - **Major:** README/pin/recruiting polish
 
 ## License

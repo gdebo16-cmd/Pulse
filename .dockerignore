@@ -1,0 +1,17 @@
+node_modules
+client/node_modules
+client/dist
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+coverage
+.DS_Store
+.vscode
+.idea
+README.md
+DEPLOY.md
+tests
